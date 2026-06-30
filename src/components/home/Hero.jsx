@@ -33,7 +33,12 @@ function Hero() {
             </p>
 
             <div className="mt-8 grid gap-4 sm:flex sm:flex-wrap">
-              <Button href="#" variant="outline">
+              <Button
+                href="/CV_Muhammad_Rizky_Ramadhan.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="outline"
+              >
                 <span className="flex items-center gap-2">
                   <FileText size={18} />
                   Lihat CV
